@@ -2,22 +2,30 @@ body {
   margin: 0;
   border: 5px solid black;
   height: 100vh;
-  position: relative;
+  /* position: relative; */
 }
 
 .one {
+  /* position: relative; */
   width: 400px;
   height: 400px;
   background-color: red;
 }
 
 .two {
+  position: relative;
+left: 100px;
+top: 100px;
   width: 300px;
   height: 300px;
   background-color: yellow;
 }
 
 .three {
+  position: absolute;
+  /* display: inline-block; */
+ bottom: 100px;
+left: 0;
   width: 200px;
   height: 200px;
   background-color: green;
