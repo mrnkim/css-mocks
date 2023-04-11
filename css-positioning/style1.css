@@ -3,6 +3,7 @@ body {
   border: 5px solid black;
   height: 100vh;
   position: relative;
+  box-sizing: border-box;
 }
 
 .one {
